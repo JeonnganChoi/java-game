@@ -1,7 +1,6 @@
 import cv2
 import math
 import argparse
-import opencv
 
 def highlightFace(net, frame, conf_threshold=0.7):
     frameOpencvDnn=frame.copy()
